@@ -1,6 +1,35 @@
-# Getting-and-cleaning-data
-Project for Getting and Cleaning Data
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @ashleyhennefer
+ Watch 0
+  Star 0
+ Fork 0 lolocripto/GettingAndCleaningData
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
+This repository is associated with the course Getting and Cleaning Data (Coursera)
+ 4 commits
+ 1 branch
+ 0 releases
+1 contributor
+ R 100.0%
+R
+ New file Upload files Find file
+ HTTPS  
+https://github.com/lolocripto/GettingAndCleaningData.git
 
+  Download ZIP Branch: master New pull request
+Latest commit c04abfe  on Jan 23, 2015 @manuelblur manuelblur second commit
+UCI HAR Dataset	first commit	a year ago
+CodeBook.md	second commit	a year ago
+Dataset.zip	first commit	a year ago
+README.md	second commit	a year ago
+run_analysis.R	second commit	a year ago
+run_analysis.Rmd	second commit	a year ago
+tidy_data.txt	second commit	a year ago
+ README.md
 Getting and Cleaning Data.
 This is the solution of the Assessment Project for the Course Getting and Cleaning Data.
 
@@ -21,3 +50,10 @@ You should create one R script called run_analysis.R that does the following. 1.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Good luck!
 
 Please upload the tidy data set created in step 5 of the instructions. Please upload your data set as a txt file created with write.table() using row.name=FALSE (do not cut and paste a dataset directly into the text box, as this may cause errors saving your submission).
+Instructions
+
+Set up the path with setwd(my_path). my_path is the path where you have the file run_analsis.R. if you don't have the folder UCI HAR Dataset in my_path, the script will be downloaded in a file called Dataset.zip and unzip in my_path (You should have the library unzip installed in your machine for R).
+
+Run the script run_analysis.r
+
+It will generate a file called tidy.txt
